@@ -1,0 +1,203 @@
+{
+  "name": "COVID-19 AI Model Repository",
+  "description": "COVID-19 AI Model Repository.",
+  "version": "0.2.0",
+  "url_root": "https://raw.githubusercontent.com/CellProfiling/covid-models/master",
+  "resources": [
+    {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native",
+      "type": "model",
+      "name": "covid-tracker-react-native",
+      "description": "Based on symptom data collected from 2,618,862 by the COVID Symptom Study smartphone-based app, a model combining symptoms to predict probable infection of COVID-19 virus was built and predited 17.42% participants are likely to have COVID-19.",
+      "cite": [
+        {
+          "text": "Menni, C., Valdes, A.M., Freidin, M.B. et al. Real-time tracking of self-reported symptoms to predict potential COVID-19. Nat Med 2020.",
+          "doi": "https://doi.org/10.1038/s41591-020-0916-2"
+        }
+      ],
+      "authors": [
+        "Cristina Menni"
+      ],
+      "documentation": "covid-tracker-react-native.md",
+      "tags": [
+        "covid19"
+      ],
+      "covers": [
+        "covid-tracker-react-native.png"
+      ],
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml",
+      "applications": []
+    },
+    {
+      "root_url": "https://gist.githubusercontent.com/oeway/582856630a0aed4d4d221e54df1b3ece/raw",
+      "type": "notebook",
+      "name": "Vitessce Image Viewer",
+      "description": "Use vitessce-image-viewer in Jupyter notebooks with ImJoy Jupyter Extension",
+      "cite": null,
+      "authors": [
+        "Wei OUYANG"
+      ],
+      "documentation": null,
+      "tags": [
+        "visualization",
+        "imjoy"
+      ],
+      "files": [
+        "https://gist.githubusercontent.com/oeway/ebedc17c9ab1f6aa5eee181679d85b5f/raw/vitessce-image-viewer-imjoy-demo.ipynb"
+      ],
+      "source": "https://gist.githubusercontent.com/oeway/582856630a0aed4d4d221e54df1b3ece/raw/vitessce-image-viewer.notebook.yaml"
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/TianjinMUC",
+      "type": "model",
+      "name": "TianjinMUC",
+      "description": "Modified Inception migration neuro network that achieved an overall 89.5% accuracy for COVID19. A webpage that licenced healthcare personnel cann upload CT images for testing and validation, https://ai.nscc-tj.cn/thai/deploy/public/pneumonia_ct.",
+      "cite": [
+        {
+          "text": "Wang, Shuai et al. A deep learning algorithm using CT images to screen for Corona Virus 2 Disease (COVID-19). medrxiv 2020.",
+          "doi": "https://doi.org/10.1101/2020.02.14.20023028"
+        }
+      ],
+      "authors": [
+        "Shuai Wang et.al"
+      ],
+      "documentation": "TianjinMUC.md",
+      "tags": [
+        "Inception",
+        "covid19",
+        "ct"
+      ],
+      "covers": [
+        "TianjinMUC.png"
+      ],
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/TianjinMUC/TianjinMUC.model.yaml",
+      "applications": []
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/RadLogics",
+      "type": "model",
+      "name": "RadLogics",
+      "description": "AI model to automate CT image analysis for detction, quantification, and tracking of Covid19.",
+      "cite": [
+        {
+          "text": "Gozes, Ophir et al. Rapid AI Development Cycle for the Coronavirus (COVID-19) Pandemic: Initial Results for Automated Detection & Patient Monitoring using Deep Learning CT Image Analysisn. arxiv 2020.",
+          "doi": "https://arxiv.org/abs/2003.05037"
+        }
+      ],
+      "authors": [
+        "Ophir Gozes et.al"
+      ],
+      "documentation": "RadLogics.md",
+      "tags": [
+        "covid19",
+        "unet",
+        "resnet-50"
+      ],
+      "covers": [
+        "RadLogics.png"
+      ],
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/RadLogics/RadLogics.model.yaml",
+      "applications": []
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/models/HPAShuffleNetV2",
+      "type": "model",
+      "name": "HPA ShuffleNetV2",
+      "description": "A light-weight model for HPA image classification competition",
+      "cite": null,
+      "authors": [
+        "Moshe Livne",
+        "Wei OUYANG"
+      ],
+      "documentation": "HPAShuffleNetV2.md",
+      "tags": [
+        "shufflenet",
+        "tensorflow.js",
+        "classification"
+      ],
+      "source": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/models/HPAShuffleNetV2/HPAShuffleNetV2.yaml",
+      "covers": [
+        "https://imjoy-team.github.io/imjoy-plugins/hpa-classification/hpa-classification-cover.gif"
+      ],
+      "applications": [
+        "HPA-Classification"
+      ]
+    },
+    {
+      "root_url": "https://gist.githubusercontent.com/oeway/3dcbd79cd29da42be13a7e3bc0f9ca12/raw",
+      "type": "dataset",
+      "name": "Dummy Zarr",
+      "description": "A dummy zarr dataset",
+      "cite": null,
+      "authors": [
+        "NO ONE"
+      ],
+      "documentation": null,
+      "tags": [
+        "zarr"
+      ],
+      "files": [
+        "https://gist.githubusercontent.com/manzt/d16dbac0ea3adc3c7b9b61f54fa1f78d/raw/95854058512862accb0182d4a02f86a55ad19139/"
+      ],
+      "source": "https://gist.githubusercontent.com/oeway/3dcbd79cd29da42be13a7e3bc0f9ca12/raw/dummy_zarr.dataset.yaml"
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT",
+      "type": "model",
+      "name": "COVID19_CT",
+      "description": "A model to rapidly diagnose patients who are positive for COVID-19 by integrating chest CT findings with clinical sympotoms exposure history and laboratory testing",
+      "cite": [
+        {
+          "text": "Mei, Xueyan et al. Artificial intelligence\u2013enabled rapid diagnosis of patients with COVID-19. Nat. Med. 2020.",
+          "doi": "https://doi.org/10.1038/s41591-020-0931-3"
+        }
+      ],
+      "authors": [
+        "Xueyan Mei et al."
+      ],
+      "documentation": "COVID19_CT.md",
+      "tags": [
+        "cnn",
+        "pytorch",
+        "tensorflow",
+        "keras",
+        "lung",
+        "ct"
+      ],
+      "covers": [
+        "covid19_ct.png"
+      ],
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT/COVID19_CT.model.yaml",
+      "applications": []
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/bioimage-io/pytorch-bioimage-io/v0.1.1/specs/models/unet2d/nuclei_broad",
+      "type": "model",
+      "name": "2D UNet Nuclei Broad",
+      "description": "A 2d U-Net pretrained on broad nucleus dataset.",
+      "cite": [
+        {
+          "text": "Ronneberger, Olaf et al. U-net: Convolutional networks for biomedical image segmentation. MICCAI 2015.",
+          "doi": "https://doi.org/10.1007/978-3-319-24574-4_28"
+        }
+      ],
+      "authors": [
+        "Constantin Pape;@bioimage-io",
+        "Fynn Beuttenm\u00fcller"
+      ],
+      "documentation": "UNet2DNucleiBroad.md",
+      "tags": [
+        "unet2d",
+        "pytorch",
+        "nucleus-segmentation"
+      ],
+      "source": "https://raw.githubusercontent.com/bioimage-io/pytorch-bioimage-io/v0.1.1/specs/models/unet2d/nuclei_broad/UNet2DNucleiBroad.model.yaml",
+      "covers": [
+        "cover0.png"
+      ],
+      "applications": [
+        "Ilastik"
+      ]
+    }
+  ]
+}
