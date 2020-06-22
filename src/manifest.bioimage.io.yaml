@@ -3,7 +3,12 @@ description:  COVID-19 AI Model Repository.
 version: 0.2.0
 url_root: https://raw.githubusercontent.com/CellProfiling/covid-models/master
 
-applications: []
+applications:
+  - id: Ilastik Model Preview
+    source: https://raw.githubusercontent.com/bioimage-io/bioimage-io-models/master/src/Ilastik-app.imjoy.html
+  - id: HPA-Classification
+    source: https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/apps/HPA-Classification.imjoy.html
+  
 
 datasets:
 - id: dummy_zarr
@@ -20,7 +25,7 @@ models:
 
 - id: UNet2DNucleiBroad
   source: https://raw.githubusercontent.com/bioimage-io/pytorch-bioimage-io/v0.1.1/specs/models/unet2d/nuclei_broad/UNet2DNucleiBroad.model.yaml
-  applications: [Ilastik]
+  applications: [Ilastik Model Preview]
 
 - id: COVID19_CT
   source: https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT/COVID19_CT.model.yaml
