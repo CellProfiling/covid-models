@@ -91,7 +91,7 @@
       "covers": [
         "covid-tracker-react-native.png"
       ],
-      "id": "COVID-TRACKER-REACT-NATIVE",
+      "id": "COVID TRACKER REACT NATIVE",
       "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml",
       "applications": []
     },
@@ -285,7 +285,7 @@
       "covers": [
         "covid19_ct.png"
       ],
-      "id": "COVID19_CT",
+      "id": "COVID19 CT",
       "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT/COVID19_CT.model.yaml",
       "applications": []
     },
