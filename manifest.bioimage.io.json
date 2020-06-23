@@ -52,50 +52,6 @@
       "authors": []
     },
     {
-      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native",
-      "type": "model",
-      "name": "covid-tracker-react-native",
-      "description": "Based on symptom data collected from 2,618,862 by the COVID Symptom Study smartphone-based app, a model combining symptoms to predict probable infection of COVID-19 virus was built and predited 17.42% participants are likely to have COVID-19.",
-      "cite": [
-        {
-          "text": "Menni, C., Valdes, A.M., Freidin, M.B. et al. Real-time tracking of self-reported symptoms to predict potential COVID-19. Nat Med 2020.",
-          "doi": "https://doi.org/10.1038/s41591-020-0916-2"
-        }
-      ],
-      "authors": [
-        "Cristina Menni",
-        "Ana M. Valdes",
-        "Maxim B. Freidin",
-        "Carole H. Sudre",
-        "Long H. Nguyen",
-        "David A. Drew",
-        "Sajaysurya Ganesh",
-        "Thomas Varsavsky",
-        "M. Jorge Cardoso",
-        "Julia S. El-Sayed Moustafa",
-        "Alessia Visconti",
-        "Pirro Hysi",
-        "Ruth C. E. Bowyer",
-        "Massimo Mangino",
-        "Mario Falchi",
-        "Jonathan Wolf",
-        "Sebastien Ourselin",
-        "Andrew T. Chan",
-        "Claire J. Steves",
-        "Tim D. Spector"
-      ],
-      "tags": [
-        "covid19"
-      ],
-      "format_version": "0.1.0",
-      "covers": [
-        "covid-tracker-react-native.png"
-      ],
-      "id": "COVID-TRACKER-REACT-NATIVE",
-      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml",
-      "applications": []
-    },
-    {
       "root_url": "https://gist.githubusercontent.com/oeway/582856630a0aed4d4d221e54df1b3ece/raw",
       "type": "notebook",
       "name": "Vitessce Image Viewer",
@@ -233,9 +189,53 @@
       "source": "https://gist.githubusercontent.com/oeway/3dcbd79cd29da42be13a7e3bc0f9ca12/raw/dummy_zarr.dataset.yaml"
     },
     {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native",
+      "type": "model",
+      "name": "Covid Tracker React Native",
+      "description": "Based on symptom data collected from 2,618,862 by the COVID Symptom Study smartphone-based app, a model combining symptoms to predict probable infection of COVID-19 virus was built and predited 17.42% participants are likely to have COVID-19.",
+      "cite": [
+        {
+          "text": "Menni, C., Valdes, A.M., Freidin, M.B. et al. Real-time tracking of self-reported symptoms to predict potential COVID-19. Nat Med 2020.",
+          "doi": "https://doi.org/10.1038/s41591-020-0916-2"
+        }
+      ],
+      "authors": [
+        "Cristina Menni",
+        "Ana M. Valdes",
+        "Maxim B. Freidin",
+        "Carole H. Sudre",
+        "Long H. Nguyen",
+        "David A. Drew",
+        "Sajaysurya Ganesh",
+        "Thomas Varsavsky",
+        "M. Jorge Cardoso",
+        "Julia S. El-Sayed Moustafa",
+        "Alessia Visconti",
+        "Pirro Hysi",
+        "Ruth C. E. Bowyer",
+        "Massimo Mangino",
+        "Mario Falchi",
+        "Jonathan Wolf",
+        "Sebastien Ourselin",
+        "Andrew T. Chan",
+        "Claire J. Steves",
+        "Tim D. Spector"
+      ],
+      "tags": [
+        "covid19"
+      ],
+      "format_version": "0.1.0",
+      "covers": [
+        "covid-tracker-react-native.png"
+      ],
+      "id": "COVID TRACKER REACT NATIVE",
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml",
+      "applications": []
+    },
+    {
       "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT",
       "type": "model",
-      "name": "COVID19_CT",
+      "name": "COVID19 CT",
       "description": "A model to rapidly diagnose patients who are positive for COVID-19 by integrating chest CT findings with clinical sympotoms exposure history and laboratory testing",
       "cite": [
         {
@@ -285,7 +285,7 @@
       "covers": [
         "covid19_ct.png"
       ],
-      "id": "COVID19_CT",
+      "id": "COVID19 CT",
       "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT/COVID19_CT.model.yaml",
       "applications": []
     },
