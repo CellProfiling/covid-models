@@ -27,11 +27,11 @@ models:
   source: https://raw.githubusercontent.com/bioimage-io/pytorch-bioimage-io/v0.1.1/specs/models/unet2d/nuclei_broad/UNet2DNucleiBroad.model.yaml
   applications: [Ilastik Model Preview]
 
-- id: COVID19_CT
+- id: COVID19 CT
   source: https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT/COVID19_CT.model.yaml
   applications: []
 
-- id: COVID-TRACKER-REACT-NATIVE
+- id: COVID TRACKER REACT NATIVE
   source:   https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml
   applications: []
 
