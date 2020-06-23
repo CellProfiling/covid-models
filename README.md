@@ -12,15 +12,15 @@ A list of models can be found [here](./src/manifest.bioimage.io.yaml).
 
 ## How to contribute new models?
 
-COVID-19 model zoo is a static website, it reads a manifest file from this Github repo (`manifest.model.json`) and render the page in the browser. Therefore, contributing models to the repository is as easy as adding links of your models to the manifest file.
+COVID-19 model zoo is a static website, it reads a manifest file from this Github repo (`manifest.bioimage.io.json`) and render the page in the browser. Therefore, contributing models to the repository is as easy as adding links of your models to the manifest file.
 
 Please follow the following steps:
 
  1. Fork this repo
  1. Add your models to the `src/manifest.bioimage.io.yaml` file
- 1. Run `python src/compile_model_manifest.py` to generate a new `manifest.model.json` with your models
+ 1. Run `python src/compile_model_manifest.py` to generate a new `manifest.bioimage.io.json` with your models
  1. Commit your changes and push to your Github repo.
- 1. You can preview it constructing an URL which makes COVID-19 model zoo render the page with the manifest file in your repo. The URL format is: `https://covid19ai.io?repo=YOUR_GITHUB_USER_NAME/YOUR_GITHUB_REPO`, for example: https://covid19ai.io?repo=oeway/models will point to the model manifest hosted on https://github.com/oeway/models. You can also add commit hash tag, branch name or tag after that, for example: https://covid19ai.io?repo=oeway/models/06a9ffac88.
+ 1. You can preview it constructing an URL which makes COVID-19 model zoo render the page with the manifest file in your repo. The URL format is: `https://covid19ai.io?repo=YOUR_GITHUB_USER_NAME/YOUR_GITHUB_REPO`, for example: https://covid19ai.io?repo=oeway/models will point to the model manifest hosted on https://github.com/haoxusci/covid-models. You can also add commit hash tag, branch name or tag after that, for example: https://covid19ai.io?repo=haoxusci/covid-models/09558f692fd.
  1. If you are satisfied with the result above, you can send us a [Pull Request](https://github.com/CellProfiling/covid19ai/pulls), and we will review it before it get merged.
 
  ## How to build BioEngine Apps?
