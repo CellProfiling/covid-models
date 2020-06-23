@@ -63,9 +63,27 @@
         }
       ],
       "authors": [
-        "Cristina Menni"
+        "Cristina Menni",
+        "Ana M. Valdes",
+        "Maxim B. Freidin",
+        "Carole H. Sudre",
+        "Long H. Nguyen",
+        "David A. Drew",
+        "Sajaysurya Ganesh",
+        "Thomas Varsavsky",
+        "M. Jorge Cardoso",
+        "Julia S. El-Sayed Moustafa",
+        "Alessia Visconti",
+        "Pirro Hysi",
+        "Ruth C. E. Bowyer",
+        "Massimo Mangino",
+        "Mario Falchi",
+        "Jonathan Wolf",
+        "Sebastien Ourselin",
+        "Andrew T. Chan",
+        "Claire J. Steves",
+        "Tim D. Spector"
       ],
-      "documentation": "covid-tracker-react-native.md",
       "tags": [
         "covid19"
       ],
@@ -109,13 +127,22 @@
         }
       ],
       "authors": [
-        "Shuai Wang et.al"
+        "Shuai Wang",
+        "Bo Kang",
+        "Jinlu Ma",
+        "Xianjun Zeng",
+        "Mingming Xiao",
+        "Jia Guo",
+        "Mengjiao Cai",
+        "Jingyi Yang",
+        "Yaodong Li",
+        "Xiangfei Meng",
+        "Bo Xu"
       ],
-      "documentation": "TianjinMUC.md",
       "tags": [
         "Inception",
         "covid19",
-        "ct"
+        "CT"
       ],
       "format_version": "0.1.0",
       "covers": [
@@ -137,13 +164,20 @@
         }
       ],
       "authors": [
-        "Ophir Gozes et.al"
+        "Ophir Gozes",
+        "Maayan Frid-Adar",
+        "Hayit Greenspan",
+        "Patrick D. Browning",
+        "Huangqi Zhang",
+        "Wenbin Ji",
+        "Adam Bernheim",
+        "Eliot Siegel"
       ],
-      "documentation": "RadLogics.md",
       "tags": [
         "covid19",
         "unet",
-        "resnet-50"
+        "resnet-50",
+        "CT"
       ],
       "format_version": "0.1.0",
       "covers": [
@@ -210,16 +244,42 @@
         }
       ],
       "authors": [
-        "Xueyan Mei et al."
+        "Xueyan Mei",
+        "Hao-Chih Lee",
+        "Kai-yue Diao",
+        "Mingqian Huang",
+        "Bin Lin",
+        "Chenyu Liu",
+        "Zongyu Xie",
+        "Yixuan Ma",
+        "Philip M. Robson",
+        "Michael Chung",
+        "Adam Bernheim",
+        "Venkatesh Mani",
+        "Claudia Calcagno",
+        "Kunwei Li",
+        "Shaolin Li",
+        "Hong Shan",
+        "Jian Lv",
+        "Tongtong Zhao",
+        "Junli Xia",
+        "Qihua Long",
+        "Sharon Steinberger",
+        "Adam Jacobi",
+        "Timothy Deyer",
+        "Marta Luksza",
+        "Fang Liu",
+        "Brent P. Little",
+        "Zahi A. Fayad",
+        "Yang Yang"
       ],
-      "documentation": "COVID19_CT.md",
       "tags": [
         "cnn",
         "pytorch",
         "tensorflow",
         "keras",
         "lung",
-        "ct"
+        "CT"
       ],
       "format_version": "0.1.0",
       "covers": [
