@@ -42,3 +42,9 @@ models:
 - id: TianjinMUC
   source:   https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/TianjinMUC/TianjinMUC.model.yaml
   applications: []
+
+- id: Cellpose
+  source: https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/Cellpose/Cellpose.model.yaml
+
+- id: OpenCovidDetector
+  source: https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/OpenCovidDetector/OpenCovidDetector.model.yaml
