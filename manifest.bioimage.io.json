@@ -144,6 +144,41 @@
       "applications": []
     },
     {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/OpenCovidDetector",
+      "type": "model",
+      "name": "OpenCovidDetector",
+      "description": "We developed and evaluated our system on a large dataset with more than 10 thousand CT volumes from COVID-19, influenza-A/B, nonviral community acquired pneumonia (CAP) and non-pneumonia subjects. In such a difficult multi-class diagnosis task, our deep convolutional neural network-based system is able to achieve an area under the receiver operating characteristic curve (AUC) of 97.17%, a sensitivity of 90.19%, and a specificity of 95.76% for COVID-19 on internal test cohort of 3,203 scans and AUC of 97.77% on the publicly available CC-CCII database with 1,943 test samples. In a reader study involving five radiologists, the AI system outperforms all of radiologists in more challenging tasks at a speed of two orders of magnitude above them. Diagnosis performance of chest x-ray (CXR) is compared. Detailed interpretation of deep network is also performed to relate AI results with CT findings. The code is available at https://github.com/ChenWWWeixiang/diagnosis_covid19.",
+      "cite": [
+        {
+          "text": "Jin, C., Chen, W., Cao, Y., Xu, Z. et al. Development and Evaluation of an AI System for COVID-19 Diagnosis. MedRxiv 2020.",
+          "doi": "https://doi.org/10.1101/2020.03.20.20039834"
+        }
+      ],
+      "authors": [
+        "Cheng Jin",
+        "Weixiang Chen",
+        "Yukun Cao",
+        "Zhanwei Xu",
+        "Zimeng Tan",
+        "Xin Zhang",
+        "Lei Deng",
+        "Chuansheng Zheng",
+        "Jie Zhou",
+        "Heshui Shi",
+        "Jianjiang Feng"
+      ],
+      "tags": [
+        "covid19",
+        "CT"
+      ],
+      "format_version": "0.1.0",
+      "covers": [
+        "OpenCovidDetector.png"
+      ],
+      "id": "OpenCovidDetector",
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/OpenCovidDetector/OpenCovidDetector.model.yaml"
+    },
+    {
       "root_url": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/models/HPAShuffleNetV2",
       "type": "model",
       "name": "HPA ShuffleNetV2",
@@ -157,7 +192,8 @@
       "tags": [
         "shufflenet",
         "tensorflow.js",
-        "classification"
+        "classification",
+        "imjoy"
       ],
       "format_version": "0.1.0",
       "source": "https://raw.githubusercontent.com/bioimage-io/tfjs-bioimage-io/master/models/HPAShuffleNetV2/HPAShuffleNetV2.yaml",
@@ -231,6 +267,32 @@
       "id": "COVID TRACKER REACT NATIVE",
       "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/covid-tracker-react-native/covid-tracker-react-native.mode.yaml",
       "applications": []
+    },
+    {
+      "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/Cellpose",
+      "type": "model",
+      "name": "Cellpose",
+      "description": "We introduce a generalist, deep learning-based segmentation algorithm called Cellpose, which can very precisely segment a wide range of image types outof-the-box and does not require model retraining or parameter adjustments. We trained Cellpose on a new dataset of highly-varied images of cells, containing over 70,000 segmented objects. To support community contributions to the training data, we developed software for manual labelling and for curation of the automated results, with optional direct upload to our data repository. Periodically retraining the model on the community-contributed data will ensure that Cellpose improves constantly. Code available in github https://github.com/mouseland/cellpose.",
+      "cite": [
+        {
+          "text": "Stringer, C., Michaelos, M., Pachitariu, M. Cellpose: a generalist algorithm for cellular segmentation. bioRxiv 2020.",
+          "doi": "https://doi.org/10.1101/2020.02.02.931238"
+        }
+      ],
+      "authors": [
+        "Carsen Stringer",
+        "Michalis Michaelos",
+        "Marius Pachitariu"
+      ],
+      "tags": [
+        "segmentation"
+      ],
+      "format_version": "0.1.0",
+      "covers": [
+        "Cellpose.png"
+      ],
+      "id": "Cellpose",
+      "source": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/Cellpose/Cellpose.model.yaml"
     },
     {
       "root_url": "https://raw.githubusercontent.com/haoxusci/covid19ai-models/master/models/COVID19_CT",
